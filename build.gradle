@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.graalvm.buildtools.native' version '0.9.13'
+}
+
+group 'com.valis.elk'
+version '0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.eclipse.elk:org.eclipse.elk.core:0.8.1'
+    implementation 'org.eclipse.elk:org.eclipse.elk.alg.layered:0.8.1'
+    implementation 'org.eclipse.elk:org.eclipse.elk.alg.common:0.8.1'
+    implementation 'org.eclipse.elk:org.eclipse.elk.alg.mrtree:0.8.1'
+    implementation 'org.eclipse.elk:org.eclipse.elk.graph.json:0.8.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+}
+
+run {
+    standardInput = System.in
+}
+
+graalvmNative {
+    binaries {
+        main {
+            configurationFileDirectories.from(file("src/main/resources/META-INF/native-image"))
+        }
+    }
+}
+
+application {
+    mainClass = "com.valis.elk.cli.Main"
+}
+
+test {
+    jvmArgs "-agentlib:native-image-agent=config-output-dir=src/graal-config"
+    useJUnitPlatform()
+}

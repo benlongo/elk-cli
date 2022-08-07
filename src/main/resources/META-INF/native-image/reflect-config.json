@@ -1,0 +1,234 @@
+[
+  {
+    "name": "java.lang.Object[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkBendPoint[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkConnectableShape[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkEdge[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkEdgeSection[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkLabel[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkNode[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.ElkPort[]"
+  },
+  {
+    "name": "org.eclipse.elk.graph.impl.ElkPropertyToValueMapEntryImpl[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.EAnnotation[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.EClassifier[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.EGenericType[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.EOperation[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.EParameter[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.EStructuralFeature[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.ETypeParameter[]"
+  },
+  {
+    "name": "org.eclipse.emf.ecore.impl.EStringToStringMapEntryImpl[]"
+  },
+  {
+    "name": "javax.security.auth.x500.X500Principal",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "sun.security.x509.X500Name"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.misc.Unsafe",
+    "fields": [
+      {
+        "name": "theUnsafe"
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.SHA",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.SHA2$SHA256",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.SHA5$SHA384",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.provider.X509Factory",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.rsa.RSAKeyFactory$Legacy",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.rsa.RSASignature$SHA1withRSA",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.rsa.RSASignature$SHA256withRSA",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.rsa.RSASignature$SHA384withRSA",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.AuthorityInfoAccessExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.AuthorityKeyIdentifierExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.BasicConstraintsExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.CRLDistributionPointsExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.CertificatePoliciesExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.ExtendedKeyUsageExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.KeyUsageExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.SubjectAlternativeNameExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "sun.security.x509.SubjectKeyIdentifierExtension",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  }
+]
