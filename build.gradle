@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'com.valis.elk'
-version '0.1-SNAPSHOT'
+version '0.8.1-SNAPSHOT'
 
 repositories {
     mavenCentral()
