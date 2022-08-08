@@ -2,7 +2,7 @@ name: GraalVM Native Image builds
 on: [push, pull_request]
 jobs:
   build:
-    name: elk-cli on ${{ matrix.os }}
+    name: elknative on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -27,5 +27,5 @@ jobs:
       - name: Upload binary
         uses: actions/upload-artifact@v2
         with:
-          name: elk-cli-${{ matrix.os }}
-          path: build/native/nativeCompile/elk-cli*
+          name: elknative-${{ matrix.os }}
+          path: build/native/nativeCompile/*

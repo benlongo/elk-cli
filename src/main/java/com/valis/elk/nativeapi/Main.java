@@ -22,7 +22,7 @@ public class Main {
     }
 
 
-    @CEntryPoint(name = "Layout")
+    @CEntryPoint(name = "Java_com_valis_elk_nativeapi_Layout")
     public static CCharPointer NativeLayout(CCharPointer cRawGraphJson, IsolateThread isolateThread) {
         String inputRawGraphJson = CTypeConversion.toJavaString(cRawGraphJson);
         var resultRawGraphJson = Layout(inputRawGraphJson);

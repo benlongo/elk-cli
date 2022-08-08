@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'elk-cli'
+rootProject.name = 'elknative'
